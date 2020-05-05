@@ -12,6 +12,10 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+title{
+  color: white;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -732,7 +736,8 @@ a.active:after {
 }
 
 .banner .left-content {
-  background-image: url("../img/IMG_7022.JPG");
+  background-image: url("/img/IMG_7022.JPG");
+  background-size: contain;
   height: 800px;
   display: block;
 }
@@ -747,6 +752,7 @@ a.active:after {
 .banner .left-content .inside-content h4 {
   font-size: 18px;
   color: #fff;
+  background-color: #d6d6d6;
   line-height: 30px;
   font-weight: 400;
 }
@@ -774,7 +780,7 @@ a.active:after {
 }
 
 .banner .center-image .inside-content img {
-  width: 100%;
+  width: 300%;
   overflow: hidden;
 }
 
@@ -782,7 +788,7 @@ a.active:after {
   background-color: #eee;
   height: 800px;
   display: block;
-  text-align: right;
+  text-align: left;
 }
 
 .banner .right-content .owl-theme {
