@@ -12,11 +12,6 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
-title{
-  color: #517df0;
-  background-color: transparent;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -737,7 +732,7 @@ a.active:after {
 }
 
 .banner .left-content {
-  background-color: blue;
+  background-color: #517df0;
   height: 800px;
   display: block;
 }
@@ -779,7 +774,7 @@ a.active:after {
 }
 
 .banner .center-image .inside-content img {
-  width: 300%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -787,7 +782,7 @@ a.active:after {
   background-color: #eee;
   height: 800px;
   display: block;
-  text-align: left;
+  text-align: right;
 }
 
 .banner .right-content .owl-theme {
@@ -821,16 +816,6 @@ a.active:after {
 
 .banner .right-content .owl-dots button {
   outline: none;
-}
-
-.banner .right-content .h1 {
-  text-align: left;
-  color: black;
-}
-
-.banner .right-content .p {
-  text-align: left;
-  color: black;
 }
 
 .banner .right-content .item {
