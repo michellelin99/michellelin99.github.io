@@ -732,7 +732,7 @@ a.active:after {
 }
 
 .banner .left-content {
-  background-color: #517df0;
+  background-image: url("../img/IMG_7022.JPG");
   height: 800px;
   display: block;
 }
@@ -816,6 +816,16 @@ a.active:after {
 
 .banner .right-content .owl-dots button {
   outline: none;
+}
+
+.banner .right-content .h1 {
+  text-align: left;
+  color: black;
+}
+
+.banner .right-content .p {
+  text-align: left;
+  color: black;
 }
 
 .banner .right-content .item {
