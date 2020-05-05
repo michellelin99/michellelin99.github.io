@@ -736,8 +736,7 @@ a.active:after {
 }
 
 .banner .left-content {
-  background-image: url("/img/IMG_7022.JPG");
-  background-size: contain;
+  background-color: blue;
   height: 800px;
   display: block;
 }
