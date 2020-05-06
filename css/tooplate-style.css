@@ -78,10 +78,10 @@ p, ul {
   height: auto;
   /*box-shadow: inset 0 0 1px white;*/
   padding-bottom: 2em;
-	width: auto;
+	width: auto
 background-repeat: no-repeat;
-background-size: auto;
-	background-image: url("/img/Photo.jpeg");
+background-size: cover;
+	background-image: url(https://i.pinimg.com/originals/cd/32/30/cd32305b2a778c2a3805a7baea545b9b.jpg);
 	background-position:center;
 }
 .logothing {
@@ -234,10 +234,10 @@ background-repeat: no-repeat;
     will-change: overflow;
 	}
 
-  .logothing {
-    height: 1000px;
-    width: auto;
-  }
+	.flex-split-left{
+		height:auto;
+	}
+	
   .left-links {
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -336,8 +336,9 @@ background-repeat: no-repeat;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
+  background-color:grey;
   padding: 12px 20px;
-  border: 1px solid #fff;
+  border: 0.7px solid grey;
   border-radius: 24px;
   letter-spacing: 0.5px;
   text-decoration: none;
@@ -347,9 +348,11 @@ background-repeat: no-repeat;
 }
 
 .white-border-button a:hover {
-  background-color: #fff;
-  color: #517df0;
+  border: 0.75px solid black;
+  background-color: white;
+  color: black;
 }
+
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -436,11 +439,11 @@ background-repeat: no-repeat;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 	  box-sizing: border-box;
 /* Place the timelime to the left */
   .timeline::after {
-    left: 2px;
+	  margin-left: 0%;
   }
 
 /* Full-width containers */
@@ -449,6 +452,8 @@ background-repeat: no-repeat;
     padding-left: 10px;
     padding-right: 5px;
   }
+	
+	.container
 
 /* Make sure that all arrows are pointing leftwards */
   .container::before {
@@ -465,6 +470,37 @@ background-repeat: no-repeat;
 
 /* Make all right containers behave like the left ones */
   .right {
-    left: 0%;
+    margin-left: 0;
   }
+}
+
+.right-header{
+	padding-top: 200px;
+	padding-bottom: 75px;
+}
+
+
+.typewriter p {
+	text-align: left;
+  font-size: 50px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 1.5s step-end;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
