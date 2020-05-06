@@ -78,10 +78,10 @@ p, ul {
   height: auto;
   /*box-shadow: inset 0 0 1px white;*/
   padding-bottom: 2em;
-	width: auto
+	width: auto;
 background-repeat: no-repeat;
 background-size: auto;
-	background-image: url(https://i.pinimg.com/originals/cd/32/30/cd32305b2a778c2a3805a7baea545b9b.jpg);
+	background-image: url("/img/Photo.jpeg");
 	background-position:center;
 }
 .logothing {
@@ -154,7 +154,6 @@ background-repeat: no-repeat;
 	overflow-y: overlay;
 	overflow-x: hidden;
   height: auto;
-	width: 75%;
 }
 .flex-split-right h1, .flex-split-right h2 {
   color: hsl(255, 100%, 62%);
@@ -413,7 +412,6 @@ background-repeat: no-repeat;
 .right {
 	  box-sizing: border-box;
   margin-left:50%;
-	margin-left:0;
 }
 
 /* Fix the circle for containers on the right side */
