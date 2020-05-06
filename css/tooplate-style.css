@@ -78,11 +78,16 @@ p, ul {
   /*box-shadow: inset 0 0 1px white;*/
   padding-bottom: 2em;
 	width: 50%
+background-repeat: no-repeat;
+background-size: 150%;
+	background-image: url(https://i.pinimg.com/originals/cd/32/30/cd32305b2a778c2a3805a7baea545b9b.jpg);
 }
 .logothing {
   margin-top: 1em;
-  height: 50px;
+  height: 100%;
   width: auto;
+background-repeat: no-repeat;
+  background-position: 10px 25px;
 }
 
 .flex-split-image {
@@ -145,7 +150,7 @@ p, ul {
   -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
   height: auto;
-	width: 50%;
+	width: auto;
 }
 .flex-split-right h1, .flex-split-right h2 {
   color: hsl(255, 100%, 62%);
@@ -165,7 +170,7 @@ p, ul {
   overflow: hidden;
 
 }
-.middle-controls {
+.right-controls {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -244,8 +249,7 @@ p, ul {
   /*circular buttons in the middle at big enough screens*/
   .middle-controls {
     z-index: 1000;
-    position: absolute;
-    left: 50%;
+    position: relative;
     top: 20%;
     margin-left: -25px;
     max-width: 50px;
@@ -334,7 +338,8 @@ p, ul {
   letter-spacing: 0.5px;
   text-decoration: none;
   transition: all 0.3s;
-	margin-left: 2.5em;
+	margin-left: 1.0em;
+	margin-right: 1.0em;
 }
 
 .white-border-button a:hover {
