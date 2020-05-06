@@ -78,10 +78,10 @@ p, ul {
   height: auto;
   /*box-shadow: inset 0 0 1px white;*/
   padding-bottom: 2em;
-	width: auto
-background-repeat: no-repeat;
-background-size: cover;
-	background-image: url(https://i.pinimg.com/originals/cd/32/30/cd32305b2a778c2a3805a7baea545b9b.jpg);
+	width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-image: url("/img/Photo.jpeg");
 	background-position:center;
 }
 .logothing {
@@ -206,6 +206,7 @@ background-repeat: no-repeat;
   cursor: pointer;
   padding: 0.5em 2em;
   fill: white;
+  content: url("img/github.jpeg");
 }
 
 .circle-button i{
