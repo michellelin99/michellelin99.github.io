@@ -82,7 +82,7 @@ p, ul {
 	width: auto;
 background-repeat: no-repeat;
 background-size: cover;
-	background-image: url("img/IMG_7022.JPG");
+	background-image: url("/img/IMG_7022.JPEG");
 	background-position:center;
 }
 
@@ -231,8 +231,8 @@ background-size: cover;
 	content: "\f0e1";
 }
 
-.fa-instagram:before{
-	content: "\f16d";
+.fa-google:before{
+	content: "\f1a0";
 }
 
 a:link {
@@ -376,9 +376,9 @@ a:active {
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  background-color:grey;
+  background-color:black;
   padding: 12px 20px;
-  border: 0.7px solid grey;
+  border: 0.7px black;
   border-radius: 24px;
   letter-spacing: 0.5px;
   text-decoration: none;
@@ -388,7 +388,7 @@ a:active {
 }
 
 .white-border-button a:hover {
-  border: 0.75px solid black;
+  border: 0.75px solid white;
   background-color: white;
   color: black;
 }
@@ -411,7 +411,7 @@ a:active {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-	  box-sizing: border-box;
+  box-sizing: border-box;
   content: '';
   position: absolute;
   width: 2px;
@@ -480,11 +480,11 @@ a:active {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 500px) {
-	  box-sizing: border-box;
 /* Place the timelime to the left */
   .timeline::after {
-	  margin-left: 0%;
+	  left: 31px;
   }
+
 
 /* Full-width containers */
   .container {
@@ -529,7 +529,7 @@ a:active {
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(30, end),
-    blink-caret 0.5s step-end;
+    blink-caret 0.5s step-end infinite;
 }
 
 /* The typing effect */
@@ -540,6 +540,6 @@ a:active {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: orange }
+  from, to { border-color: transparent }
   100% { border-color: transparent }
 }
