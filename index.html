@@ -17,23 +17,18 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
-    <body>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <body>    
         <div class="flex-split">
     
             <!-- Child divs -->
             <div class="flex-split-left">
                 <!-- Putting the image in a div here is totally optional -->
                 <div class="flex-split-image">
-                    <svg class="logothing">
-    
-                    </svg>
     
                 </div>
                 <nav class="left-links">
                     <div class="white-border-button">
-                        <a href="#about">ABOUT</a>
+                        <a href="#about"">ABOUT</a>
                 </div>
                 <div class=" white-border-button">
                             <a href="mlin_05_2020.pdf">RESUME</a>
@@ -42,6 +37,14 @@
                         <a href="#experience">EXPERIENCE</a>
                     </div>
                 </nav>
+                <button onclick="myFunction()">Toggle dark mode</button>
+    
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
             </div>
             <div class="middle-controls">
                 <a href="https://github.com/michellelin99" class="circle-button">
@@ -56,10 +59,9 @@
             </div>
     
             <div class="flex-split-right">
-                <!-- Etc, etc etc -->
                 <div class="right-header">
                     <div class="typewriter">
-                        <p>HI, I'M MICHELLE.</p>
+                        <p id="dark-mode">HI, I'M MICHELLE.</p>
                     </div> <br> <br>
     
                 </div>
@@ -67,12 +69,12 @@
                 <div id="about" class="about-section">
     
                     <h1> ABOUT ME </h1> <br> <br>
-                    <p>I was once called the worst audience participant Cirque du Soleil ever had. There's been a lot of lying in this family. And a lot of love! More lies. ♪♪ It ain't easy being white. It ain't easy being brown. ♪♪ We all need to pick a day to try and make trend. Did you know that more frozen bananas are sold right here on this boardwalk than anywhere on the OC?</p>
-                </div>
+                        <p id= "dark-mode">I'm a rising senior at Vanderbilt University studying Computer Science and Medicine, Health and Society. I'm interested in utilizing technology as a platform to increase health equity and access to accurate information. I've sharpen my communications skills through my various team-work experiences in both technical and non-technical environments. Moreover, I continue to learn new languages and concepts by exposing myself to new enviroments. I would love to gain a better understanding of the state of current healthcare technology systems as well as the knowledge needed to make decisive decisions in building and updating said systems.</p>
+    
+                </div> <br> <br> <br>
     
                 <div class="experience" id="experience">
                     <h1>EXPERIENCE</h1>
-                    <br><br>
                     <div class="timeline">
                         <div class="container left">
                             <div class="content">
@@ -112,6 +114,6 @@
                         </div>
                     </div>
                 </div>
-    
+                                                 
     </body>
 </html>

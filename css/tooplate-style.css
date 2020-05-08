@@ -1,5 +1,5 @@
 /*reset*/
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+body,i{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 
 /**************/
 /*   Styles   */
@@ -15,7 +15,6 @@ body {
   width:100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-
 }
 
 h1 {
@@ -38,15 +37,6 @@ p, ul {
   line-height: 1.6;
 }
 
-.avatar {
-  height: auto;
-  max-width:80px;
-  border-radius: 50%;
-}
-
-.skills li{
-  list-style-type: square;
-}
 .about-section {
   display: flex;
   flex-direction: column;
@@ -82,7 +72,7 @@ p, ul {
 	width: auto;
 background-repeat: no-repeat;
 background-size: cover;
-	background-image: url("/img/IMG_7022.JPEG");
+	background-image: url("/img/IMG_7022.JPG");
 	background-position:center;
 }
 
@@ -385,6 +375,7 @@ a:active {
   transition: all 0.3s;
 	margin-left: 1.0em;
 	margin-right: 1.0em;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .white-border-button a:hover {
@@ -400,6 +391,8 @@ a:active {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 5em;
+  margin-top: 5em;
 }
 
 .timeline p, ul {
@@ -540,6 +533,34 @@ a:active {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
+  from, to { border-color: orange }
   100% { border-color: transparent }
+}
+
+button{
+  margin-top: 50px;
+  display:inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background-color:black;
+  padding: 12px 20px;
+  border: 0.7px black;
+  border-radius: 24px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-family: 'Montserrat', sans-serif;
+	
+}
+
+button:hover {
+  border: 0.75px solid white;
+  background-color: white;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+	color: white;
 }
